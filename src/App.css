@@ -1,0 +1,60 @@
+.App{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.title{
+    background-color: rgb(165, 42, 85);
+    color: rgb(245, 206, 219);
+    width: 100vw;
+    text-align: center;
+  flex: 5%;
+  margin:0;
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+.header{
+  background-color: rgb(255, 187, 187);
+  flex: 30%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .inputContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.header input{
+  height: 30px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 2px solid rgb(165, 42, 85);
+}
+
+.header button{
+  height: 71px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: 2px solid rgb(165, 42, 85);
+}
+
+.toDo{
+  flex: 70%;
+  width: 100vw;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+  display: flex;
+}

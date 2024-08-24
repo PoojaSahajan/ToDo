@@ -1,0 +1,41 @@
+.todobody {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    color: white;
+    margin: 15px;
+    align-items: center;
+}
+
+.tasks {
+    
+    width: 25vw;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Align items vertically center */
+}
+
+.tasks span {
+    background-color: rgb(165, 42, 85);
+    height: 5vh;
+    color: rgb(245, 206, 219);
+    flex: 1; /* Allow spans to grow and fill the available space */
+    border: 2px solid rgb(245, 206, 219);
+    padding: 2px; /* Set padding to reduce space between text and border */
+    align-content: center;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    line-height: 1; /* Adjust line-height to reduce space around text */
+}
+
+.todobody button {
+    flex: 20%;
+    height: 5vh;
+    border: none;
+    background-color: rgb(31, 43, 7);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+    cursor: pointer;
+    align-content: center;
+}
